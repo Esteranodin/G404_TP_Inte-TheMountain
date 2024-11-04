@@ -1,0 +1,17 @@
+{
+  "name": "the-mountain-tailwind-tp",
+  "version": "1.0.0",
+  "description": "Vous allez reproduire une maquette en utilisant tailwind",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "tailwindcss build -i ./css/style.css -o ./css/output.css --watch"
+},
+
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.4.14"
+  }
+}
