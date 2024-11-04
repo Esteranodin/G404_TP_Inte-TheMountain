@@ -26,7 +26,7 @@ module.exports = {
           'grey': 'hsl(203, 24, 19)',
         },
 
-        police: {
+        fonts: {
           'grey' : 'hsl(0, 0, 87)',
           'blue' : 'hsl(185, 64, 47)',
           'off-white': 'hsl(0, 0, 100)',
@@ -41,6 +41,10 @@ module.exports = {
       fontSize: {
         paragraph: '15px',
       },
+
+      backgroundImage: {
+        header: "url('../images/bg_header.jpg')",
+      }
     },
   },
   plugins: [],
