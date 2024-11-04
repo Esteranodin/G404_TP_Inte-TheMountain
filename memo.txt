@@ -2,6 +2,12 @@ Tout le Bootstrap de ce TD effacé -en css + dossier JS
 (pour récup sur GitHub)
 
 
+Trouver meilleure icone burger
 
+header fixe et bg transparent 
+1 section = 1 taille d'écran = hero banner
+
+
+bg + div avec couleur opacité changée
 
 
