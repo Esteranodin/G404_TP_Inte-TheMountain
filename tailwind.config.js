@@ -44,6 +44,9 @@ module.exports = {
 
       backgroundImage: {
         header: "url('../images/bg_header.jpg')",
+        nuage: "url('../images/bg_nuage.jpg')",
+        news: "url('../images/bg_newsletter.jpg')",
+        photo: "url('../images/bg_appareil_photo.jpg')",
       }
     },
   },

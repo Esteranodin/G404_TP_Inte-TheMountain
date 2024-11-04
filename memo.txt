@@ -9,5 +9,5 @@ header fixe et bg transparent
 
 
 bg + div avec couleur opacité changée
-
-
+opacité
+probleme avec autes photo bg
