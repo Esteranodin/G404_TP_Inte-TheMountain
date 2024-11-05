@@ -4,6 +4,8 @@ Tout le Bootstrap de ce TD effacé -en css + dossier JS
 
 Trouver meilleure icone burger
 
+bg image smartphone
+
 header fixe et bg transparent 
 1 section = 1 taille d'écran = hero banner
 
@@ -11,6 +13,3 @@ header fixe et bg transparent
 bg + div avec couleur opacité changée
 opacité
 probleme avec autes photo bg
-
-
-stroke + fill
