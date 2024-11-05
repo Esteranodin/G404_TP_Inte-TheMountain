@@ -612,6 +612,14 @@ video {
   grid-column-end: 1;
 }
 
+.col-end-2 {
+  grid-column-end: 2;
+}
+
+.col-end-3 {
+  grid-column-end: 3;
+}
+
 .row-span-4 {
   grid-row: span 4 / span 4;
 }
@@ -1341,6 +1349,50 @@ video {
 }
 
 @media (min-width: 640px) {
+  .sm\:col-start-2 {
+    grid-column-start: 2;
+  }
+
+  .sm\:col-start-3 {
+    grid-column-start: 3;
+  }
+
+  .sm\:col-start-1 {
+    grid-column-start: 1;
+  }
+
+  .sm\:row-start-1 {
+    grid-row-start: 1;
+  }
+
+  .sm\:row-start-2 {
+    grid-row-start: 2;
+  }
+
+  .sm\:row-start-3 {
+    grid-row-start: 3;
+  }
+
+  .sm\:row-start-4 {
+    grid-row-start: 4;
+  }
+
+  .sm\:row-end-2 {
+    grid-row-end: 2;
+  }
+
+  .sm\:row-end-5 {
+    grid-row-end: 5;
+  }
+
+  .sm\:row-end-3 {
+    grid-row-end: 3;
+  }
+
+  .sm\:row-end-4 {
+    grid-row-end: 4;
+  }
+
   .sm\:flex {
     display: flex;
   }
@@ -1351,6 +1403,10 @@ video {
 
   .sm\:hidden {
     display: none;
+  }
+
+  .sm\:h-full {
+    height: 100%;
   }
 
   .sm\:w-\[40\%\] {
@@ -1595,6 +1651,11 @@ video {
     background-position: center;
   }
 
+  .sm\:object-cover {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+
   .sm\:object-center {
     -o-object-position: center;
        object-position: center;
@@ -1628,6 +1689,11 @@ video {
   .sm\:py-12 {
     padding-top: 3rem;
     padding-bottom: 3rem;
+  }
+
+  .sm\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 
   .sm\:pb-10 {
@@ -1689,5 +1755,55 @@ video {
 
   .sm\:leading-9 {
     line-height: 2.25rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:col-start-1 {
+    grid-column-start: 1;
+  }
+
+  .lg\:col-start-3 {
+    grid-column-start: 3;
+  }
+
+  .lg\:col-start-2 {
+    grid-column-start: 2;
+  }
+
+  .lg\:col-end-3 {
+    grid-column-end: 3;
+  }
+
+  .lg\:col-end-2 {
+    grid-column-end: 2;
+  }
+
+  .lg\:row-span-11 {
+    grid-row: span 11 / span 11;
+  }
+
+  .lg\:row-start-1 {
+    grid-row-start: 1;
+  }
+
+  .lg\:row-start-2 {
+    grid-row-start: 2;
+  }
+
+  .lg\:row-start-3 {
+    grid-row-start: 3;
+  }
+
+  .lg\:row-end-2 {
+    grid-row-end: 2;
+  }
+
+  .lg\:row-end-4 {
+    grid-row-end: 4;
+  }
+
+  .lg\:row-end-3 {
+    grid-row-end: 3;
   }
 }
